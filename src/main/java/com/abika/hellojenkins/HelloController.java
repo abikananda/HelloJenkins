@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("/")
 	public String sayHello() {
-		return "Hello Jenkins. I am Abikananda";
+		return "Hello Jenkins. Deployed through Pipeline";
 	}
 }
